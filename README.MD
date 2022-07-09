@@ -1,13 +1,12 @@
 <h2><ins>Spark performance metrics:</ins></h2>
 
 <h3><ins>Average vs Median & Percentiles:</ins></h3>
-These were especially useful when we want to extract simple but also gives a very great insights from millions or thousands of 
-millions metrics data.
+These were especially useful when we want to extract simple but also very effective insights from millions or thousands of millions metrics data.
 
 <h4><ins>Median:</ins></h4>
 Middle value separating the greater and lesser halves of a data set. Median is very useful when it comes to 
 performance data, since it only represents what half of job will experience. Ideally median can be seen has a stable 
-measurement, so it's good fit for seeing long-term trends. It was sort of 50 percentile.
+measurement, so it's good fit for seeing long-term trends. It was sort of <b>50 percentile</b>.
 
 
 ![](docs/images/median.png)
