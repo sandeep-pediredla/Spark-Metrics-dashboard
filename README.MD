@@ -15,13 +15,16 @@ Example usage:
 As a median is based on the middle data in a set, it is not necessary to know the value of extreme results in order to 
 calculate it. For example, in a psychology test investigating the time needed to solve a problem, if a small number of 
 people failed to solve the problem at all in the given time a median can still be calculated.
+
 ![](docs/images/calculate_by_percentile_50.png)
+
 ___
 
 <h4><ins>Percentiles:</ins></h4>
 k-th percentile (percentile score or centile) is a score below which a given percentage k of scores in its frequency 
 distribution falls. For example, the 50th percentile (the median) is the score below which (exclusive) or at or below 
 which (inclusive) 50% of the scores in the distribution may be found.
+
 
 <ins>Applications:</ins>
 * The 85th percentile speed of traffic on a road is often used as a guideline in setting speed limits and assessing 
@@ -32,10 +35,13 @@ of the portfolio is not expected to sink within a given period of time and given
 
 <h4><ins>75th - 85th percentiles:</ins></h4>
 Is a good choice for seeing medium- to long-term trends. It also the best value to use when setting performance budgets.
+
 ![](docs/images/calculate_by_percentile_75.png)
+
 ___
 <h4><ins>90th - 95th percentiles:</ins></h4>
 It is useful for finding short-term trends or anomalies.
+
 ![](docs/images/calculate_by_percentile_95.png)
 
 <h4><ins>Average/Mean:</ins></h4>
