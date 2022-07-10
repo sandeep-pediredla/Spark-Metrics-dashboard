@@ -1,12 +1,10 @@
-<h2><ins>Spark performance metrics:</ins></h2>
-
-<h3><ins>Average vs Percentiles:</ins></h3>
-These were especially useful when we want to extract simple but also very effective insights from millions or thousands of millions metrics data.
+<h2><ins>which function to consider Average vs Percentiles:</ins></h2>
+These functions are very simple to use/implement but also provides great insights from metrics data.
 
 <h4><ins>Median/50 percentile:</ins></h4>
 Middle value separating the greater and lesser halves of a data set. Median is very useful when it comes to 
 performance data, since it only represents what half of job will experience. Ideally median can be seen has a stable 
-measurement, so it's good fit for seeing long-term trends. It was sort of <b><span style="color:#7F7FFF;">50 percentile</span></b>.
+measurement, so it is good fit for seeing long-term trends. It was sort of <b><span style="color:#7F7FFF;">50 percentile</span></b>.
 
 
 ![](docs/images/median.png)
@@ -34,23 +32,23 @@ whether such a limit is too high or low.
 of the portfolio is not expected to sink within a given period of time and given a confidence value.
 
 <h4><ins>75th - 85th percentiles:</ins></h4>
-Is a good choice for seeing medium- to long-term trends. It also the best value to use when setting performance budgets.
+It gives a view or forecast of medium to long term trends. Thereby we can reprovision resources like hardware, budgets etc..
 
 ![](docs/images/calculate_by_percentile_75.png)
 
 ___
 <h4><ins>90th - 95th percentiles:</ins></h4>
-It is useful for finding short-term trends or anomalies.
+It is useful for finding short term trends or abrupt scenarios or anomalies.
 
 ![](docs/images/calculate_by_percentile_95.png)
 
 <h4><ins>Average/Mean:</ins></h4>
-Average/Mean are the best useful when the distribution is relatively even like ram or cpu metrics (as Spark cluster usage is 
-pretty stand). Best try to use Average sparingly as it greatly inflate or deflate values.
+Average/Mean are the best useful when the distribution is relatively even like system metrics (as Spark cluster usage is 
+pretty stand). But try to use Average sparingly as it may greatly under or upper values.
 
 ___
 
-Due to the caveat mentioned above, we recommend that you use averages sparingly. Average is roughly the same as the 66th percentile.
+Due to the caveat mentioned above, below figure show average is roughly the same as the 66th percentile.
 So 50 percentile & average metrics represents two completely different values.
 
 ![](docs/images/percentiles_vs_avg.jpg)
