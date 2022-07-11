@@ -6,16 +6,18 @@ Middle value separating the greater and lesser halves of a data set. Median is v
 performance data, since it only represents what half of job will experience. Ideally median can be seen has a stable 
 measurement, so it is good fit for seeing long-term trends. It was sort of <b><span style="color:#7F7FFF;">50 percentile</span></b>.
 
-
-![](docs/images/median.png)
+<p align="center">
+<img src="docs/images/median.png" />
+</p>
 
 Example usage:
 As a median is based on the middle data in a set, it is not necessary to know the value of extreme results in order to 
 calculate it. For example, in a psychology test investigating the time needed to solve a problem, if a small number of 
 people failed to solve the problem at all in the given time a median can still be calculated.
 
-![](docs/images/calculate_by_percentile_50.png)
-
+<p align="center">
+<img src="docs/images/calculate_by_percentile_50.png" />
+</p>
 ___
 
 <h4><ins>Percentiles:</ins></h4>
@@ -34,13 +36,16 @@ of the portfolio is not expected to sink within a given period of time and given
 <h4><ins>75th - 85th percentiles:</ins></h4>
 It gives a view or forecast of medium to long term trends. Thereby we can reprovision resources like hardware, budgets etc..
 
-![](docs/images/calculate_by_percentile_75.png)
-
+<p align="center">
+<img src="docs/images/calculate_by_percentile_75.png" />
+</p>
 ___
 <h4><ins>90th - 95th percentiles:</ins></h4>
 It is useful for finding short term trends or abrupt scenarios or anomalies.
 
-![](docs/images/calculate_by_percentile_95.png)
+<p align="center">
+<img src="docs/images/calculate_by_percentile_95.png" />
+</p>
 
 <h4><ins>Average/Mean:</ins></h4>
 Average/Mean are the best useful when the distribution is relatively even like system metrics (as Spark cluster usage is 
@@ -51,8 +56,12 @@ ___
 Due to the caveat mentioned above, below figure show average is roughly the same as the 66th percentile.
 So 50 percentile & average metrics represents two completely different values.
 
-![](docs/images/percentiles_vs_avg.jpg)
-![](docs/images/calculated_by_mean.png)
+<p align="center">
+<img src="docs/images/percentiles_vs_avg.jpg" />
+</p>
+<p align="center">
+<img src="docs/images/calculated_by_mean.png" />
+</p>
 
 <h4><ins>References:</ins></h4>
 https://en.wikipedia.org
