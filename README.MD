@@ -1,10 +1,11 @@
-<h2><ins>which function to consider Average vs Percentiles:</ins></h2>
-These functions are very simple to use/implement but also provides great insights from metrics data.
+<h2><ins>Which function to consider Average vs Percentiles:</ins></h2>
+These functions are very simple to use/implement, but also provides great insights from metrics data.
 
 <h4><ins>Median/50 percentile:</ins></h4>
-Middle value separating the greater and lesser halves of a data set. Median is very useful when it comes to 
-performance data, since it only represents what half of job will experience. Ideally median can be seen has a stable 
-measurement, so it is good fit for seeing long-term trends. It was sort of <b><span style="color:#7F7FFF;">50 percentile</span></b>.
+Middle value separating the greater and lesser halves of a data set. Median is very useful when it comes to performance 
+data, since it only represents what half of the job will experience. Ideally, median can be seen has a stable 
+measurement, so it is a good fit for seeing long-term trends. It was sort of <b>
+<span style="color:#7F7FFF;">50 percentile</span></b>.
 
 <p align="center">
 <img src="docs/images/median.png" />
@@ -18,10 +19,11 @@ people failed to solve the problem at all in the given time a median can still b
 <p align="center">
 <img src="docs/images/calculate_by_percentile_50.png" />
 </p>
+
 ___
 
 <h4><ins>Percentiles:</ins></h4>
-k-th percentile (percentile score or centile) is a score below which a given percentage k of scores in its frequency 
+k-th percentile (percentile score or percentile) is a score below which a given percentage k of scores in its frequency 
 distribution falls. For example, the 50th percentile (the median) is the score below which (exclusive) or at or below 
 which (inclusive) 50% of the scores in the distribution may be found.
 
@@ -39,6 +41,7 @@ It gives a view or forecast of medium to long term trends. Thereby we can reprov
 <p align="center">
 <img src="docs/images/calculate_by_percentile_75.png" />
 </p>
+
 ___
 <h4><ins>90th - 95th percentiles:</ins></h4>
 It is useful for finding short term trends or abrupt scenarios or anomalies.
@@ -47,11 +50,11 @@ It is useful for finding short term trends or abrupt scenarios or anomalies.
 <img src="docs/images/calculate_by_percentile_95.png" />
 </p>
 
+___
+
 <h4><ins>Average/Mean:</ins></h4>
 Average/Mean are the best useful when the distribution is relatively even like system metrics (as Spark cluster usage is 
 pretty stand). But try to use Average sparingly as it may greatly under or upper values.
-
-___
 
 Due to the caveat mentioned above, below figure show average is roughly the same as the 66th percentile.
 So 50 percentile & average metrics represents two completely different values.
